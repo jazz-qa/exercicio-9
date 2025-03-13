@@ -10,4 +10,6 @@ function somaMultiplos5e7(limite) {
     return soma;
 }
 
-console.log(somaMultiplos5e7(100));
+console.log(somaMultiplos5e7(75));
+
+module.exports = { somaMultiplos5e7 }

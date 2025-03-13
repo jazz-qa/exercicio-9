@@ -7,4 +7,6 @@ function mdc(a, b) {
     return a;
 }
 
-console.log(mdc(36, 60));
+console.log(mdc(42, 24));
+
+module.exports = { mdc }

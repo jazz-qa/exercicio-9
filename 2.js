@@ -16,6 +16,8 @@ function indicesMaiorMenor(arr) {
     return { indiceMaior, indiceMenor };
 }
 
-const numeros = [20, 12, 44, 6, 16];
+const numeros = [46, 12, 90, 64, 8];
 const resultado = indicesMaiorMenor(numeros);
 console.log(resultado);
+
+module.exports = { indicesMaiorMenor }
