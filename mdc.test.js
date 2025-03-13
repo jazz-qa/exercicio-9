@@ -1,4 +1,4 @@
-const { mdc } = require("./1")
+const { mdc } = require("./mdc")
 describe('Mínimo múltiplo comum', () => {
     it('CT01', () => {
         expect(mdc(36,60)).toBe(12);

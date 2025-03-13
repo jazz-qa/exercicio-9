@@ -1,4 +1,4 @@
-const { indicesMaiorMenor } = require("./2")
+const { indicesMaiorMenor } = require("./indicesMaiorMenor")
 describe('Índices maior e menor', () => {
     it('CT01', () => {
         const numeros = [20, 12, 44, 6, 16];
